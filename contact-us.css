@@ -1,0 +1,60 @@
+.contactus{
+    text-align: center;
+    background-color:rgb(248,163,63);
+    padding: 20px 0px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#message{
+    padding: 60px;
+    border: solid 1px green;
+}
+a{
+    text-decoration: none;
+} 
+button{
+    padding: 0px 150px;
+    background-color: rgb(94,196,23);
+    border-radius: 25PX;
+    border: none ;
+}
+
+.contactinfo{
+   display: grid;
+   grid-template-columns: repeat(1, 2fr);
+   margin-bottom: 2%;
+}
+input{
+    padding: 8px 30px;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    border: none;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+textarea{
+    border-radius: 25px;
+}
+:placeholder-shown{
+    font-size: larger; 
+    background-color: whitesmoke;   
+}
+.Footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: antiquewhite;
+    padding: 20px;
+}
+li{
+    list-style: none;
+}
+#txt{
+    font-weight: bolder;
+    margin-top: 5%;
+}
+.icon{
+   font-size: x-large;
+}
