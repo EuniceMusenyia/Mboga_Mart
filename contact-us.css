@@ -58,3 +58,45 @@ li{
 .icon{
    font-size: x-large;
 }
+@media screen and(max-width:600px){
+    .contactus{
+        padding: 10px 0px;
+    }
+    #message{
+        padding: 1px;
+    }
+
+    button{
+        padding: 0px 5px;
+        border-radius: 25PX;
+        border: none ;
+    }
+    
+    .contactinfo{
+       display: grid;
+       grid-template-columns: repeat(1, 1fr);
+       margin-bottom: 2%;
+    }
+    input{
+        padding: 5px 10px;
+        margin-bottom: 1%;
+        margin-left: 3%;
+        border: none;
+        border-radius: 15px;
+    }
+    textarea{
+        border-radius: 5px;
+    }
+
+    .Footer{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        padding: 0px;
+    }
+
+    #txt{
+        margin-top: 5%;
+    }
+
+    
+}
